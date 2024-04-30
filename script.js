@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             dropdown.style.display = (dropdown.style.display === 'block') ? 'none' : 'block';
 
             arrowIcon.classList.toggle('rotate');
-            
+
             dropMenuItems.forEach(otherItem => {
                 if (otherItem !== item) {
                     const otherDropdown = otherItem.querySelector('.dropdown');
@@ -20,5 +20,13 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
     });
+
+    const toggleMenu = document.querySelector(".toggle-menu");
+    const dropMenu = document.querySelector(".drop-menu");
+
+    toggleMenu.addEventListener("click", function() {
+        dropMenu.style.display = dropMenu.style.display === "block" ? "none" : "block";
+    });
+    
 });
 
