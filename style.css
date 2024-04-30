@@ -125,9 +125,6 @@
     align-content: end;
     margin-left: 10px;
     align-content: center;
-
-
-
   }
 
   .dropdown {
@@ -147,8 +144,12 @@
     border: 1px solid #eee;
   }
   .button{
-    font-size: x-large;
-    color: ;
+    font-size: 15px;
+    color:#fff;
+    background-color: #4CAF50 ;
+    padding:  8px 15px;
+    border-radius: 7px 5px 5px 7px;
+    border:none;
   }
   
   .dropdown li {
