@@ -26,14 +26,40 @@
               <img src="./assets/logo.png" alt="Your Logo">
               <h2>Fit  Planet</h2>
           </div>
+          
+          
+
+            
+
+
+
+
+        
           <form class="search-form" action="#"  method="GET">
             <input type="text" name="search" placeholder="Search products...">
             <button type="submit"><i class="fas fa-search"></i></button>
           </form>
           <ul class="nav-links">
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><i class="far fa-user"></i> </li>
+            <li ><a href="#">About us</a></li>
+            <li style="padding: 17px;"><a href="#">Contact</a></li>
+            
+            <button class="button" id="signupButton">Sign Up</button>
+            
+            <div id="loginForm" style="display: none;">
+              <h2>Login</h2>
+              <form >
+                <!-- Your login form fields here -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Password:</label>
+                
+                <input type="password" id="password" name="password">
+                <button type="submit">Login</button>
+              </form>
+            </div>
+          
+
+            <li class="user"><i class="far fa-user"></i> </li>
             <li><i class="fas fa-shopping-cart"></i> </li>
         </ul>
        </nav>
@@ -41,54 +67,122 @@
         <ul class="drop-menu-list">
             <li class="drop-menu-item">Home & Living<i class="fas fa-angle-down"></i>
                 <ul class="dropdown">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
+                   <div class="content">
+                   <div>
+                    <li style="font-size: 20px;color: black;">Wellness</li>
+                    <li>Aroma Candels</li>
+                    <li>Essential Oils</li>
+                    <li>Workout</li>
+                    <li>Yoga essentials</li>
+                   </div>
+                   
+                    <div style="margin-left: 100px;">
+                        <li style="font-size: 20px;color: black;">Home</li>
+                        <li>Bathroom essentials</li>
+                        <li>Hygine</li>
+                        <li>Religious and Ceremonical items</li>
+                    </div>
+                    <div style="margin-left: 100px;">
+                        <h4 style="color: black;">Kitchen & garden</h4>
+                        <li>Food storage</li>
+                        <li>Tableware</li>
+                        <li>Pet care</li>
+                        <li>Pots & planters</li>
+                    </div>
+
+                   </div>
                 </ul>
             </li>
             <li class="drop-menu-item">Travel<i class="fas fa-angle-down"></i>
                 <ul class="dropdown">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
+                    
+                 <div>
+                    <li>Travel Bags</li>
+                    <li>Bagpacks</li>
+                    <li>Handbags</li>
+                    <li>Wallet</li>
+                    <li>Laptop sleeve</li>
+                    <li>Evetyday totes</li>
+                 </div>
+                        
+
+                       
+                   
                 </ul>
-            </li>
-            <li class="drop-menu-item">Eat & Drink<i class="fas fa-angle-down"></i>
+            
+            <li class="drop-menu-item">drinks & Eat<i class="fas fa-angle-down"></i>
                 <ul class="dropdown">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
+                  <div class="content" >
+                    <div>
+                        <li style="font-size: 20px;color: black;">Drinks</li>
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Juice & Healthy drinks</li>
+                        <li>Bevrage Accessories</li>
+                    </div>
+                    <div style="margin-left: 100px;">
+                        <li style="font-size: 20px;color: black;">Eat</li>
+                        <li>Bakery & snacks</li>
+                        <li>Ghee</li>
+                        <li>Healthy food</li>
+                        <li>Honey</li>
+                       
+                    </div>
+
+                  </div>
                 </ul>
-            </li>
+           
             <li class="drop-menu-item">Gifts<i class="fas fa-angle-down"></i>
                 <ul class="dropdown">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
+                   <div class="gift-section">
+                    <div>
+                        <img class="image" src="gift.webp" alt="" srcset="">
+                            <h3>gift cards</h3>
+                    </div>
+                   
+                        
+                        
+                        
+
+
+                    
+                   </div>
+
+                    
                 </ul>
             </li>
             <li class="drop-menu-item">Fashion<i class="fas fa-angle-down"></i>
                 <ul class="dropdown">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
+                    <div class="content">
+                    <div>
+                    <li style="font-size: 20px;color: black;">Kids</li>
+                    <li>Top wear</li>
+                    <li>Onesies</li>
+                    <li>Bedding & Nursery</li>
+                    <li>All clothing</li>
+                    </div>
+                    
+                        <div>
+                     <li style="font-size: 20px;color: black;margin-left: 40px;">Mens</li>
+                    <li>Top</li>
+                    <li>T-shirts</li>
+                     <li>shirt</li>
+                     <li>pants</li>
+                     <li>Shorts</li>
+                     <li>Jacket</li>
+                            </div>
+                    </div>
+                    
                 </ul>
             </li>
-            <li class="drop-menu-item">More<i class="fas fa-angle-down"></i>
-                <ul class="dropdown">
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
-                </ul>
-            </li>
+           
         </ul>
       </div>
+
     </header>
 </body>
+<script>
+
+
+</script>
 </html>
