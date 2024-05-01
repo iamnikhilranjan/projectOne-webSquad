@@ -27,5 +27,15 @@ document.addEventListener("DOMContentLoaded", function() {
     toggleMenu.addEventListener("click", function() {
         dropMenu.style.display = dropMenu.style.display === "block" ? "none" : "block";
     });
+
+    document.getElementById("signupButton").addEventListener("click", function() {
+        let loginForm = document.getElementById("loginForm");
+        if (loginForm.style.display === "none") {
+          loginForm.style.display = "block";
+        } else {
+          loginForm.style.display = "none";
+        }
+      });
     
 });
+

@@ -59,6 +59,7 @@
     color: white;
     cursor: pointer;
   }
+
   
   button[type="submit"]:hover {
     background-color: #a53838;
@@ -86,8 +87,7 @@
   .nav-links li i{
     cursor: pointer;
   }
-  
-
+ 
   .drop-menu {
     background-color: white;
     padding: 10px 0;
@@ -112,6 +112,28 @@
   .drop-menu-item i{
     color: #45a049;
   }
+  .image{
+    width: 250px;
+    display: flex;
+    align-content: center;
+  }
+  .content{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: gray;
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .gift-section{
+    display: flex;
+  }
+  .text{
+    display: flex;
+    align-content: end;
+    margin-left: 10px;
+    align-content: center;
+  }
 
   .dropdown {
     display: none;
@@ -128,6 +150,14 @@
     color: #414141;
     font-size: medium;
     border: 1px solid #eee;
+  }
+  .button{
+    font-size: 15px;
+    color:#fff;
+    background-color: #4CAF50 ;
+    padding:  8px 15px;
+    border-radius: 7px 5px 5px 7px;
+    border:none;
   }
   
   .dropdown li {
