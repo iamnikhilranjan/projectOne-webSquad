@@ -101,12 +101,14 @@
     justify-content: space-between;
     margin: 0 10px 0 10px;
     padding: 0;
+    
   }
   
   .drop-menu-item {
     position: relative;
     color: black;
     cursor: pointer;
+
   }
   
   .drop-menu-item i{
@@ -117,6 +119,7 @@
     display: flex;
     align-content: center;
   }
+  
   .content{
     display: flex;
     align-items: center;
@@ -137,7 +140,7 @@
 
   .dropdown {
     display: none;
-    position: absolute;
+    /* position: absolute; */
     top: 100%;
     left: 0;
     background-color: white;
@@ -251,16 +254,18 @@
     opacity: 0.6;
   }
 
-  .home .content{
+  .home .home-content{
     position: absolute;
     z-index: 888;
     color: #3d3b3b;
     width: 40%;
     padding-top: 75px;
     padding-left: 30px;
+    display: flex;
+    flex-direction: column;
   }
 
-  .home .content .text{
+  .home .home-content .text{
     font-size: 1em;
     font-weight: 650;
     text-transform: uppercase;
@@ -269,7 +274,7 @@
     color: #212121;
   }
 
-  .home .content .last-line{
+  .home .home-content .last-line{
     font-size: 1.75em;
     font-weight: 500;
     letter-spacing: 2.5px;
@@ -280,7 +285,7 @@
   }
   
   
-  .home .content p{
+  .home .home-content p{
     margin-top: 40px;
     margin-bottom: 65px;
     width: fit-content;
@@ -310,6 +315,7 @@
     border-radius: 5px;
     color: #212121;
     cursor: pointer;
+    /* margin-right: 100px; */
   }
 
   button[type="btn1"]:hover {
@@ -321,11 +327,19 @@
     background-color: #ffff;
   }
 
-  .buttons{
+  /* .home .content .buttons{
     display: flex;
     justify-content: space-between;
     padding-right: 30px;
-  }
+  } */
+
+  .home .home-content .home-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    
+  } 
+
   .home .media-icons{
     z-index: 888;
     position: absolute;

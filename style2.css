@@ -1,0 +1,80 @@
+main {
+    font-family: 'Lato' , 'Open+Sans'; 
+    margin-top: 50px;
+  }
+  
+  .container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .products {
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .productstwo {
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .product {
+    flex: 0 0 auto;
+    width: 250px;
+    margin-right: 10px;
+    scroll-snap-align: start;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 2px;
+  }
+
+  .two .product {
+    flex: 0 0 auto;
+    width: 250px;
+    margin-right: 10px;
+    scroll-snap-align: start;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 2px;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .arrowtwo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .left {
+    left: 15px;
+  }
+  
+  .right {
+    right: 15px;
+  }
+  
+  .lefttwo {
+    left: 15px;
+  }
+  
+  .righttwo {
+    right: 15px;
+  }
+  

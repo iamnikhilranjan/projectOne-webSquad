@@ -37,5 +37,43 @@ document.addEventListener("DOMContentLoaded", function() {
         }
       });
     
+    // scrolling products one
+    const productsContainer = document.querySelector('.products');
+    const leftArrow = document.querySelector('.left');
+    const rightArrow = document.querySelector('.right');
+  
+    leftArrow.addEventListener('click', function() {
+      productsContainer.scrollBy({
+        left: -750,
+        behavior: 'smooth'
+      });
+    });
+  
+    rightArrow.addEventListener('click', function() {
+      productsContainer.scrollBy({
+        left: 750,
+        behavior: 'smooth'
+      });
+    });
+
+    // scrolling products Two
+    const productsTwoContainer = document.querySelector('.productstwo');
+    const leftArrowTwo = document.querySelector('.arrowtwo .lefttwo');
+    const rightArrowTwo = document.querySelector('.arrowtwo .righttwo');
+  
+    leftArrowTwo.addEventListener('click', function() {
+      productsTwoContainer.scrollBy({
+        left: -750,
+        behavior: 'smooth'
+      });
+    });
+  
+    rightArrowTwo.addEventListener('click', function() {
+      productsContainer.scrollBy({
+        left: 750,
+        behavior: 'smooth'
+      });
+    });
+
 });
 
