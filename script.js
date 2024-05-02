@@ -75,5 +75,27 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
 
+    //add to cart button to added
+
+    const button = document.querySelector('.one .product .add-to-cart');
+    let clickCount = 0;
+  
+    button.addEventListener('click', function() {
+      clickCount++;
+  
+      if (clickCount === 1) {
+        button.style.backgroundColor = 'white';
+        button.style.color = '#BF5050';
+        button.textContent = 'Added';
+      } else if (clickCount === 2) {
+        button.style.backgroundColor = '#BF5050';
+        button.style.color = 'white';
+        button.textContent = 'Add to Cart';
+        clickCount = 0; 
+      }
+    });
+
+
+
 });
 
