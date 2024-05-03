@@ -374,8 +374,12 @@ gap: 60px;
   font-size: 20px;
   font-weight: 750;
 }
+#logo-container{
+    display: flex;
+    align-items: center;
+    gap:2px;
 
-
+}
 
 
   .home .media-icons{
