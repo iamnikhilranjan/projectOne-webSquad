@@ -99,9 +99,7 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    margin: 0 10px 0 10px;
-    padding: 0;
-    
+    padding: 0 10px;
   }
   
   .drop-menu-item {
@@ -114,23 +112,24 @@
   .drop-menu-item i{
     color: #45a049;
   }
+
   .image{
     width: 250px;
     display: flex;
     align-content: center;
   }
-  
+
   .content{
     display: flex;
     align-items: center;
     align-content: center;
-    color:grey;
+    color:#5C5C5C;
     padding: 10px;
     justify-content: space-between;
     width:fit-content;
     border:2px solid black;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 3);
-    background-color:white;
+    background-color:#F4F2F1;
   }
   .gift-section{
     display: flex;
