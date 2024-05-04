@@ -14,7 +14,7 @@ main {
     overflow-x: hidden;
     scroll-snap-type: x mandatory;
   }
-  
+
   .productstwo {
     display: flex;
     overflow-x: hidden;
@@ -29,9 +29,6 @@ main {
     text-align: center;
     border: 2px solid #eee;
     border-radius: 2px;
-  }
-
-  .product {
     padding: 10px;
   }
 
